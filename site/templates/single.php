@@ -5,7 +5,7 @@
   <?php snippet('navigation') ?>
 
   <main>
-    <div class="intro u-sm-padd-double border-red">
+    <div class="intro u-sm-padd-double border-red bg-white text-black">
       <div class="l-container">
         <div class="h1 u-ta-center u-padd-top-double u-padd-btm-double u-push-btm-none fit">
           <?php echo $page->title()->html() ?>
@@ -25,12 +25,14 @@
         >
     <?php endforeach ?>
 
-    <div class="l-container u-padd-top-double u-padd-btm-double">
-      <div class="g-row u-sm-padd-top-double u-padd-btm-double max-width">
-        <div class="g g-sm-10">
-          <section class="l-section">
-            <?php echo $page->text()->kirbytext() ?>
-          </section>
+    <div class="bg-white text-black">
+      <div class="l-container u-padd-top-double u-padd-btm-double">
+        <div class="g-row u-sm-padd-top-double u-padd-btm-double max-width">
+          <div class="g g-sm-10">
+            <section class="l-section">
+              <?php echo $page->text()->kirbytext() ?>
+            </section>
+          </div>
         </div>
       </div>
     </div>

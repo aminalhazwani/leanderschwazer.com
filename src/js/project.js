@@ -1,3 +1,9 @@
+$(function() {
+  setTimeout(function() {
+    $(".splash").hide()
+  }, 600);
+});
+
 window.onload = function() {
   var currentFigure = $('.project_figure');
     currentFigure.each(function() {

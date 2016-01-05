@@ -31,14 +31,3 @@ fields:
         label: Target blank
         type: checkbox
         text: Open in a new window
-  line-b:
-    type: line
-  footer:
-    label: Footer sentences
-    type: structure
-    entry: >
-      {{ sentence }}
-    fields:
-      sentence:
-        label: Sentence
-        type: textarea

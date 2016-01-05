@@ -26,12 +26,8 @@
 		<meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
 	<?php endif ?>
 
-	<!-- Favicon and Touch icons -->
+	<!-- Favicon -->
 	<link rel="icon" type="image/png" href="../assets/images/favicon.png">
-	<link href="#" rel="apple-touch-icon" />
-	<link href="#" rel="apple-touch-icon" sizes="76x76" />
-	<link href="#" rel="apple-touch-icon" sizes="120x120" />
-	<link href="#" rel="apple-touch-icon" sizes="152x152" />
 
 	<!-- Opengraph data -->
 	<?php if($page->template() != 'home'): ?>

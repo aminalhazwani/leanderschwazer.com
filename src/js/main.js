@@ -9,6 +9,13 @@ $(window).on("scroll load", function() {
   }
 });
 
+// Splash
+$(function() {
+  setTimeout(function() {
+    $(".splash").hide()
+  }, 600);
+});
+
 // Huge typography
 jQuery(".fit").fitText();
 

@@ -1,0 +1,25 @@
+Sort: 3
+
+----
+
+Cover: 
+
+----
+
+Measure: enclosed
+
+----
+
+Slidebgcolor: #ffffff
+
+----
+
+Overtextcolor: #000000
+
+----
+
+Overtext: 
+
+----
+
+Video: 

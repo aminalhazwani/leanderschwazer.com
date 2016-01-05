@@ -1,0 +1,25 @@
+Cover: 
+
+----
+
+Measure: enclosed
+
+----
+
+Slidebgcolor: #ffffff
+
+----
+
+Overtextcolor: #000000
+
+----
+
+Overtext: # 30 Most Famous People of all Time
+
+----
+
+Video: 
+
+----
+
+Sort: 2

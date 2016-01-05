@@ -1,0 +1,25 @@
+Sort: 4
+
+----
+
+Cover: 
+
+----
+
+Measure: enclosed
+
+----
+
+Slidebgcolor: #ffffff
+
+----
+
+Overtextcolor: #000000
+
+----
+
+Overtext: ### According to the definition of concept art, formulated in the 1960s by Sol LeWitt, all that is needed to generate an autonomous work of art is an idea.
+
+----
+
+Video: 

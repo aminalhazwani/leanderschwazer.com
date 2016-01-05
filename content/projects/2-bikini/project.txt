@@ -1,0 +1,25 @@
+Title: Bikini
+
+----
+
+Titl: Bikini
+
+----
+
+Date: 
+
+----
+
+Client: Museion
+
+----
+
+Text: 
+
+----
+
+Headercolor: #000000
+
+----
+
+Bkcolor: #ffffff

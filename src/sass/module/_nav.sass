@@ -1,0 +1,75 @@
+//============================================
+// Navigation
+//============================================
+
+.navMobile
+  position: relative
+  +mq($bp-md)
+    display: none
+
+.navMobile_header
+  position: relative
+  z-index: 2
+
+.navMobile_inner
+  display: flex
+  justify-content: space-between
+
+.navMobile_inner a,
+.navMobile_inner span,
+  &:hover
+    color: $red
+
+.navMobile_items
+  position: absolute
+  top: auto
+  bottom: 0
+  width: 100%
+  padding-top: 56px
+
+.navMobile_item
+  display: block
+  &:hover
+    color: $red
+
+.navMobile_item:first-child
+  display: none
+
+.navMobile-is-open
+  .navMobile_items
+    top: 0
+    bottom: auto
+    z-index: 1
+  .menu:before
+    content: "Close "
+  .menu
+    color: $white
+
+.menu
+  cursor: pointer
+
+.navDesktop
+  display: none
+  +mq($bp-md)
+    display: block
+
+.nav-scrolled
+  position: fixed
+  top: 0
+  left: 0
+  z-index: 1
+  width: 100%
+
+.nav-is-fixed
+  padding-top: 44px
+
+.nav_item:not(:last-of-type)
+  margin-right: $space
+
+.nav_item:last-of-type
+  margin-right: calc(28px + 2.5%)
+  +mq($bp-sm)
+    margin-right: calc(28px + 5%)
+
+.nav_item:hover
+  color: $red

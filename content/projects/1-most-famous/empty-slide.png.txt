@@ -1,0 +1,25 @@
+Sort: 2
+
+----
+
+Cover: 
+
+----
+
+Measure: enclosed
+
+----
+
+Slidebgcolor: #000000
+
+----
+
+Overtextcolor: #ffffff
+
+----
+
+Overtext: # Der Muff von 175 Jahren
+
+----
+
+Video: 
